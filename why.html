@@ -58,6 +58,17 @@
           <p class="scenario">
            Let us consider a scenario where two persons (Karthick &amp; Kavitha) who lives in the same street wants to chat with each other and they both are connected to different ISPs. Let us see what happens when they both use Facebook Messenger or similar application like Whatsapp (or) Telegram to chat. Karthick sends a message to Kavitha.
           </p>
+
+          <ol class="scenario">
+              <li>Message leaves Karthick's Phone.</li>
+              <li>Message reaches Karthick's Internet Service Provider.</li>
+              <li>ISP of Karthick finds the route to reach Whatsapp's server which is located outside the country.</li>
+              <li>The Whatsapp server now sends the message from it's server to it's ISP.</li>
+              <li>The ISP of Whatsapp finds the location of Kavitha's ISP and passes the message there.</li>
+              <li>Kavitha's ISP finally passes the message to Kavitha that was sent by Karthick.</li>
+          </ol>
+
+          <p>The above scenario is very well shown in the picture below. Follow the green line to understand how the message flows from one machine to another. In practical, there will be more number of Intermediate devices which will also carry the message from one device to another, for simplicity we have just considered the end devices and intermediate servers.</p>
           <img src="images/how_we_connect_today.png">
         </div>
 
