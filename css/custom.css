@@ -14,3 +14,7 @@ img {
 p {
     text-align: justify;
 }
+
+ol, ul {
+    margin-left: 5%;
+}
