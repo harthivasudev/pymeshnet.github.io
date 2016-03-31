@@ -60,12 +60,12 @@
           </p>
 
           <ol class="scenario">
-              <li>Message leaves Karthick's Phone.</li>
-              <li>Message reaches Karthick's Internet Service Provider.</li>
-              <li>ISP of Karthick finds the route to reach Whatsapp's server which is located outside the country.</li>
-              <li>The Whatsapp server now sends the message from it's server to it's ISP.</li>
-              <li>The ISP of Whatsapp finds the location of Kavitha's ISP and passes the message there.</li>
-              <li>Kavitha's ISP finally passes the message to Kavitha that was sent by Karthick.</li>
+              <li>Message leaves <strong>Karthick's Phone</strong>.</li>
+              <li>Message reaches <strong>Karthick's Internet Service Provider</strong>.</li>
+              <li><strong>ISP of Karthick</strong> finds the route to reach <strong>Whatsapp's server</strong> which is located outside the country.</li>
+              <li>The <strong>Whatsapp server</strong> now sends the message from it's server to <strong>it's ISP</strong>.</li>
+              <li>The <strong>ISP of Whatsapp</strong> finds the location of <strong>Kavitha's ISP</strong> and passes the message there.</li>
+              <li><strong>Kavitha's ISP</strong> finally passes the message to <strong>Kavitha's Phone</strong> that was sent by Karthick.</li>
           </ol>
 
           <p>The above scenario is very well shown in the picture below. Follow the green line to understand how the message flows from one machine to another. In practical, there will be more number of Intermediate devices which will also carry the message from one device to another, for simplicity we have just considered the end devices and intermediate servers.</p>
@@ -78,7 +78,7 @@
             We saw how the message from Karthick reaches Kavitha. Message from Kavitha to Karthick will also flow in similar way. Let us ask ourselves some questions here,
           </p>
           <ol class="scenario">
-              <li>What will happen if the ISP of Karthick or Kavitha is down (i.e no signal)?</li>
+              <li>What will happen if the ISP of Karthick or Kavitha is down?</li>
               <li>What will happen if the Whatsapp server is down (i.e server is not running)?</li>
               <li>What if the ISP of Karthick or Kavitha is reading what Karthick and Kavitha are chatting about?</li>
               <li>What if the Server (or) the ISPs are not passing the message to others?</li>
@@ -103,12 +103,27 @@
         <div id="what">
           <h3>What is the way forward?</h3>
           <p>
-          The above problems identified are not only serious, but if you ask a Network Engineer, they would explain you how the above problems are violating the basic principles of a network. The way forward from here is to connect differently in such a way that there are no single point of failures to avoid disconnection. No single point of failure also means no single point of control and thus no censorship. Surveillance is still a problem, but it cannot happen at the same scale as before. In order to prevent mass surveillance, all applications on the network should adopt encryption and decryption techniques, thus messages can be understood only by sender and the receiver.
+          The above problems identified are not only serious, but if you ask a Network Engineer, they would explain you how the above problems are violating the basic principles of a network. <strong>The way forward from here is to connect differently in such a way that there are no single point of failures to avoid disconnection</strong>. No single point of failure also means no single point of control and thus no censorship. Surveillance is still a problem, but it cannot happen at the same scale as before. In order to prevent mass surveillance, all applications on the network should adopt encryption and decryption techniques, thus messages can be understood only by sender and the receiver.
           </p>
         </div>
 
         <div id="how-to-connect">
           <h3>How should we connect?</h3>
+          <p>
+          We now know that <strong>Single Points of Failure and Control</strong> are bad and we should get rid of that. The question now is <strong>How are we going to do that?</strong> Here is what we propose.
+          </p>
+          <p class="scenario">
+            Today, almost all the households who have Internet connection also have a Wi-Fi Router (Wi-Fi Modem, as commonly called, though modem and router are different) in our house due to the increased usage of Android Smartphones and laptops. We wanted to connect our smatphone and laptop to Internet through this Wi-Fi Router / Modem. The Internet Service Provider extends a wire (or) cable to our house which is plugged into the Wi-Fi Router / Modem.
+          </p>
+          <p class="scenario">
+          Our neighbors also have the same setup, when we switch on the Wi-Fi in our phone (or) laptop we not only see the Wi-Fi signal from our Wi-Fi Modem, but also from our neighbours. Which means we can connect to any signal around us. What is preventing us from connecting to their signal or them connecting to our signal is the password that they or we put to our wireless network. The reason that we set a password to our wireless network is because it also has Internet connection from a ISP and the ISP is charging us for their service and also limiting the bandwidth (It's called as <b>F</b>air <b>U</b>sage <b>P</b>olicy). For example, you may be charged Rs. 1000/- monthly on a Internet connection provided by BSNL and the FUP is 2 mbps speed upto the usage of 8GB per month and 512 kbps for the rest of the month beyond 8GB and so we put a password on our wireless network to enjoy the high speed.
+          </p>
+          <p class="scenario">
+          It's quite natural that we put a password when the ISP puts a limitation already. Instead of co-operating with each other, we are said to stay away from our neighbours in this case. Co-operate with neigbours? But how? When a smartphone with Wi-Fi and a Modem with Wi-Fi can connect each other, so does two modem with Wi-Fi can connect with each other and exchange information. Wi-Fi devices work in one of the two frequencies 2.4GHZ (or) 5GHZ. The idea here is to form a peer-to-peer wireless network with routers. Our neighbours are our peers. We call such a network <strong>Wireless Mesh Network</strong>. In a peer-to-peer network, not every devices will connect to a single central point, instead there will be multiple links between devices and the data from one device can travel through multiple paths to reach another device with the help of peers in between.
+          </p>
+          <p class="scenario">
+          Now take a look at the following image and see how Karthick and Kavitha could chat with each other on a mesh network. The idea behind mesh network is that ultimately the people and the community that forms the mesh network are self-empowered instead of relying on some third-parties. Even without Internet, people could still communicate with each other. With applications like <a href="http://www.servalproject.org/" target="_blank">Serval Mesh</a>, people could make free phone calls, send free messages, share files to their neigbours / friends through mesh network, a local copy of Wikipedia can be setup and used without Internet, there are lot more to do on a mesh network.
+          </p>
           <img src="images/how_we_should_connect.png">
         </div>
       </div>
