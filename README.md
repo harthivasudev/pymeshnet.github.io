@@ -1,7 +1,5 @@
 ### TODO
 
- - ~~Makes images responsive~~
- - Tamil Localization
- - giving credits to the designers
+ - Makes images responsive
 
 Note: svg file is located at images directory
