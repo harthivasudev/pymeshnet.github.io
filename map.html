@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Mesh Nodes Map</title>
+  <meta name="description" content="List of active and inactive mesh nodes.">
+  <meta name="author" content="PYMESH">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+ 
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+      <div style="margin-top: 3%">
+          <center><h2>List of Mesh Nodes</h2>
+      </div>
+
+      <div id="mapid"></div>
+      
+      <div id="nodeslist">
+          <table>
+              <tr>
+                  <th>Node Name</th>
+                  <th>Status</th>
+              </tr>
+              <tr>
+                  <td>Opendrops</td>
+                  <td>Inactive</td>
+              </tr>
+              <tr>
+                  <td>Raj Apartments</td>
+                  <td>Inactive</td>
+              </tr>
+
+          </table>
+      </div>
+  </div>
+
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+ <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+ <script src="meshlocals.json" type="text/javascript"></script>
+ <script>
+    // initiate the map and its view to pondicherry
+    var mymap = L.map('mapid').setView([11.9378, 79.8033], 13);
+
+    // download tile images for pondicherry from mapbox 
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicHJhc2hlcmUiLCJhIjoiY2lob2JiMzZ4MHM4enQ0bHprc3dsMmJ3ZCJ9.fsTpQu5mPFKuxoDnapqmVA', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 20,
+        id: 'prashere.pk8k4982',
+        accessToken:'pk.eyJ1IjoicHJhc2hlcmUiLCJhIjoiY2lob2JiMzZ4MHM4enQ0bHprc3dsMmJ3ZCJ9.fsTpQu5mPFKuxoDnapqmVA'
+    }).addTo(mymap);
+
+    // function to toggle popup content for each node
+    function onEachFeature(feature, layer) {
+      // does this feature have a property named popupContent?
+      if (feature.properties && feature.properties.popupContent) {
+        layer.bindPopup(feature.properties.popupContent);
+        }
+    }
+
+    // add markers from the geojson file
+    new L.GeoJSON(nodes, {onEachFeature: onEachFeature}).addTo(mymap);
+  </script>
+
+</body>
+</html>
