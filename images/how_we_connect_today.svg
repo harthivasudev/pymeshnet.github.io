@@ -16,7 +16,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="how_we_connect_today.svg">
+   sodipodi:docname="how_we_connect_today.svg"
+   inkscape:export-filename="/home/pras/Code/production/pymeshnet/pymeshnet.github.io/images/how_we_connect_today.png"
+   inkscape:export-xdpi="149.9543"
+   inkscape:export-ydpi="149.9543">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,9 +29,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="489.1228"
-     inkscape:cy="197.33322"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="465.96363"
+     inkscape:cy="182.62697"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -129,21 +132,49 @@
          d="m 27.609,25.808 c 0,0 -11.844,-4.219 -23.211,0"
          id="path7794" />
     </g>
-    <g
-       id="g4635"
-       inkscape:export-xdpi="149.9543"
-       inkscape:export-ydpi="149.9543">
-      <text
-         sodipodi:linespacing="125%"
-         id="text9564"
-         y="220.70322"
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1713.0615"
+       y="220.70322"
+       id="text9564"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
          x="1713.0615"
-         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           id="tspan9568"
-           y="220.70322"
-           x="1713.0615"
-           sodipodi:role="line" /></text>
+         y="220.70322"
+         id="tspan9568" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7861"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion7863"><rect
+           id="rect7865"
+           width="132.85715"
+           height="141.42857"
+           x="-2167.1428"
+           y="246.64792" /></flowRegion><flowPara
+         id="flowPara7867" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7869"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion7871"><rect
+           id="rect7873"
+           width="152.85715"
+           height="647.14288"
+           x="-2822.8572"
+           y="-9.0663671" /></flowRegion><flowPara
+         id="flowPara7875" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot7877"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion7879"><rect
+           id="rect7881"
+           width="32.857143"
+           height="125.71429"
+           x="-2758.5715"
+           y="649.50507" /></flowRegion><flowPara
+         id="flowPara7883" /></flowRoot>    <g
+       id="g4574">
       <rect
          y="264.86887"
          x="9.4818335"
@@ -176,7 +207,7 @@
            x="40.146" />
         <polygon
            id="polygon6069"
-           points="75.215,50.855 73.352,49.881 73.352,87.224 56.68,87.224 56.68,56.444 54.782,56.444 54.782,87.224 23.367,87.224 23.367,56.444 21.523,56.444 21.523,89.07 75.215,89.07 " />
+           points="73.352,87.224 56.68,87.224 56.68,56.444 54.782,56.444 54.782,87.224 23.367,87.224 23.367,56.444 21.523,56.444 21.523,89.07 75.215,89.07 75.215,50.855 73.352,49.881 " />
         <rect
            id="rect6071"
            height="10.41"
@@ -185,10 +216,10 @@
            x="31.544001" />
         <polygon
            id="polygon6073"
-           points="16.983,25.065 18.1,27.265 21.523,25.51 22.373,25.065 39.136,16.463 55.828,25.065 56.661,25.491 60.084,27.249 61.201,25.065 62.336,22.866 39.136,10.93 15.863,22.866 " />
+           points="21.523,25.51 22.373,25.065 39.136,16.463 55.828,25.065 56.661,25.491 60.084,27.249 61.201,25.065 62.336,22.866 39.136,10.93 15.863,22.866 16.983,25.065 18.1,27.265 " />
         <polygon
            id="polygon6075"
-           points="68.244,79.081 68.244,68.685 61.753,68.685 61.734,68.685 61.734,79.081 " />
+           points="61.753,68.685 61.734,68.685 61.734,79.081 68.244,79.081 68.244,68.685 " />
         <path
            id="path6077"
            d="m 56.661,34.059 0,-7.166 -1.845,-0.958 0,18.73 -31.449,0 0,-18.73 -1.844,0.938 0,17.81 -3.707,0 0,9.327 42.551,0 0,-9.327 -3.706,0 0,-4.983 16.69,8.798 1.844,0.976 6.635,3.476 2.307,-4.362 -27.476,-14.529 z m -35.138,18.091 -1.846,0 0,-5.622 1.846,0 0,5.622 z m 3.689,0 -1.845,0 0,-5.622 1.845,0 0,5.622 z m 3.708,0 -1.846,0 0,-5.622 1.846,0 0,5.622 z m 3.687,0 -1.845,0 0,-5.622 1.845,0 0,5.622 z m 3.709,0 -1.846,0 0,-5.622 1.846,0 0,5.622 z m 3.689,0 -1.846,0 0,-5.622 1.846,0 0,5.622 z m 3.707,0 -1.844,0 0,-5.622 1.844,0 0,5.622 z m 3.69,0 -1.844,0 0,-5.622 1.844,0 0,5.622 z m 3.706,0 -1.844,0 0,-5.622 1.844,0 0,5.622 z m 3.708,0 -1.846,0 0,-5.622 1.846,0 0,5.622 z m 3.69,-5.602 0,5.621 -1.845,0 0,-5.621 1.845,0 z"
@@ -212,7 +243,7 @@
            d="m 2051.3367,661.1487 11.358,20.949 10.151,4.203 23.069,-20.63 0.375,5.251 -19.504,16.693 -4.503,3.938 4.503,-0.373 0,33.196 -51.423,-18.67 0.2,-37.587 12.851,4.601 12.923,-11.571 z m -5.311,-15.172 -27.571,16.318 -0.185,3.19 3.937,1.43 0,41.52 55.782,20.53 16.985,-6.779 15.196,-5.875 0,-43.138 3.057,-2.259 -0.057,-3.556 -18.192,-5.813 -48.952,-15.568 z"
            id="path6314" />
         <polygon
-           points="25.455,73.74 25.709,47.059 37.176,50.908 37.205,78.492 "
+           points="37.176,50.908 37.205,78.492 25.455,73.74 25.709,47.059 "
            id="polygon6316"
            transform="translate(2015.2747,637.6577)" />
       </g>
@@ -1020,40 +1051,10 @@
            x="37.048119"
            sodipodi:role="line">How We Connect Today?</tspan></text>
       <flowRoot
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         id="flowRoot7861"
-         xml:space="preserve"><flowRegion
-           id="flowRegion7863"><rect
-             y="246.64792"
-             x="-2167.1428"
-             height="141.42857"
-             width="132.85715"
-             id="rect7865" /></flowRegion><flowPara
-           id="flowPara7867" /></flowRoot>      <flowRoot
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         id="flowRoot7869"
-         xml:space="preserve"><flowRegion
-           id="flowRegion7871"><rect
-             y="-9.0663671"
-             x="-2822.8572"
-             height="647.14288"
-             width="152.85715"
-             id="rect7873" /></flowRegion><flowPara
-           id="flowPara7875" /></flowRoot>      <flowRoot
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         id="flowRoot7877"
-         xml:space="preserve"><flowRegion
-           id="flowRegion7879"><rect
-             y="649.50507"
-             x="-2758.5715"
-             height="125.71429"
-             width="32.857143"
-             id="rect7881" /></flowRegion><flowPara
-           id="flowPara7883" /></flowRoot>      <flowRoot
          style="font-style:normal;font-weight:normal;font-size:10.54389px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          id="flowRoot9572-6"
          xml:space="preserve"
-         transform="translate(8.0920068,11.805529)"><flowRegion
+         transform="translate(7.0205781,10.7341)"><flowRegion
            id="flowRegion9574-2"><rect
              style="font-size:10.54389px"
              y="445.30661"
@@ -1062,7 +1063,7 @@
              width="108.7068"
              id="rect9576-8" /></flowRegion><flowPara
            id="flowPara9729-5"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.54389px;font-family:Raleway;-inkscape-font-specification:Raleway;text-align:center;text-anchor:middle">Eg: Whatsapp Server</flowPara></flowRoot>      <g
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.54389px;font-family:Raleway;-inkscape-font-specification:Raleway;text-align:center;text-anchor:middle">Eg: Facebook Server</flowPara></flowRoot>      <g
          transform="matrix(0.50070335,0,0,0.50070335,368.3315,458.98451)"
          id="g4534">
         <ellipse
