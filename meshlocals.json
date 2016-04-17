@@ -11,16 +11,6 @@ var nodes = {
         "type": "Point",
         "coordinates": [79.8222693800926, 11.9415933966651]
       }
-    },
-    {
-        "type": "Feature",
-        "properties": {
-            "popupContent": "<b>Raj Apartments</b><br>Inactive"
-        },
-        "geometry": {
-            "type": "Point",
-            "coordinates": [79.8004254698753, 11.9374760529695] 
-        }
-    }
+    }  
   ]
 };
