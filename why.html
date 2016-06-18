@@ -33,6 +33,10 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
+    <div>
+        <center><h2 style="background: black;color: white;">This website is moved <a href="http://pymeshnet.gitlab.io" target="_blank">here</a></h2></center>
+    </div>
+
       <div class="header">
         <a href="why-ta.html">தமிழில் படிக்க</a> |
         <a href="index.html">Home</a>
@@ -65,11 +69,11 @@
 
           <ol class="scenario">
               <li>Message leaves <strong>Karthick's Phone</strong>.</li>
-              <li>Message reaches <strong>Karthick's ISP</strong>.</li>
-              <li><strong>ISP of Karthick</strong> finds the route to reach <strong>Whatsapp's server</strong> which is located outside the country.</li>
-              <li>The <strong>Whatsapp server</strong> now sends the message to <strong>it's ISP</strong>.</li>
-              <li>The <strong>ISP of Whatsapp</strong> finds the location of <strong>Kavitha's ISP</strong> and passes the message there.</li>
-              <li><strong>Kavitha's ISP</strong> finally passes the message to <strong>Kavitha's Phone</strong> that was sent by Karthick.</li>
+              <li>Message reaches <strong>Karthick's ISP</strong> (Airtel).</li>
+              <li><strong>ISP of Karthick</strong> (Airtel) finds the route to reach <strong>Facebook Messenger server</strong> which is located outside the country.</li>
+              <li>The <strong>Facebook Messenger server</strong> now sends the message to <strong>it's ISP</strong>.</li>
+              <li>The <strong>ISP of Facebook Messenger</strong> finds the location of <strong>Kavitha's ISP</strong> (BSNL) and passes the message there.</li>
+              <li><strong>Kavitha's ISP</strong> (BSNL) finally passes the message to <strong>Kavitha's Phone</strong> that was sent by Karthick.</li>
           </ol>
 
           <p>The above scenario is very well shown in the picture below. Follow the green line to understand how the message flows from one machine to another.
@@ -85,7 +89,7 @@
           </p>
           <ol class="scenario">
               <li>What will happen if the ISP of Karthick or Kavitha is down?</li>
-              <li>What will happen if the Whatsapp server is down (i.e server is not running)?</li>
+              <li>What will happen if the Facebook Messenger server is down (i.e server is not running)?</li>
               <li>What if the ISP of Karthick or Kavitha is reading what Karthick and Kavitha are chatting about?</li>
               <li>What if the Server (or) the ISPs are not passing the message to others?</li>
           </ol>
@@ -94,18 +98,22 @@
           </p>
           <ul class="scenario">
               <li>No one connected to the ISP can chat with each other when the ISP or the server is down or if the message is blocked intentionally.</li>
-              <li>It is not safe to chat when the ISP or the Whatsapp server is spying on us, mining for patterns of activity.</li>
+              <li>It is not safe to chat when the ISP or the Facebook server is spying on us, mining for patterns of activity.</li>
           </ul>
           <p>
             If there is one point in the network due to which no one is able to communicate when it goes down
-             is called <strong>Single Point of Failure</strong>. Here in our case there are two such points.
-              One is ISP and the other is the Whatsapp server. If the ISP or the server blocks the communication intentionally,
-               we call this <strong>Censorship</strong>. If the ISP or the server spies on everyone either for-profit (or) on the behalf of the public or private organizations,
-               we call this <strong>Mass Surveillance</strong>.
+            is called <strong><a href="https://en.wikipedia.org/wiki/Single_point_of_failure" target="_blank">Single Point of Failure</a></strong>. Here in our case there are two such points.
+              One is ISP and the other is the Facebook server. If the ISP or the server blocks the communication intentionally,
+              we call this <strong><a href="https://en.wikipedia.org/wiki/Internet_censorship_in_India" target-"_blank">Censorship</a></strong>. If the ISP or the server spies on everyone either for-profit (or) on the behalf of the public or private organizations,
+               we call this <strong><a href="https://en.wikipedia.org/wiki/Mass_surveillance_in_India" target="_blank">Mass Surveillance</a></strong>.
           </p>
           <p>
-          <em>Note</em>: We have chosen <strong>Whatsapp</strong> for demonstration purpose.
-           The problems identified above are applicable not only for Whatsapp, but for every applications that works in a similar way.
+          <em>Note</em>: We have chosen <strong>Facebook Messenger</strong> for demonstration purpose.
+           The problems identified above are applicable not only for Facebook Messenger, but for every applications that works in a similar way.
+          </p>
+
+          <p>
+          Initially while explaining the above scenario, in place of Facebook Messenger, we had Whatsapp Messenger. Now since <a href="https://whispersystems.org/blog/whatsapp-complete/" target="_blank">Whatsapp has implemented end-to-end encryption</a> on their latest clients, the problem of spying their users has been eliminated and so we thought, we should not be using whatsapp as example. But remember, still the problem of centralized server and so the single point of failure for whatsapp is still there.
           </p>
         </div>
       </div>

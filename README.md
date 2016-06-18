@@ -1,7 +1,5 @@
-### TODO
+# We moved this repository to [Gitlab](https://gitlab.com/pymeshnet/pymeshnet.gitlab.io)
 
- - ~~Makes images responsive~~
- - Tamil Localization
- - giving credits to the designers
+Do not give any Pull Request here.
 
-Note: svg file is located at images directory
+Reason: Wherever possible, the pymeshnet community would prefer Free Software tools.

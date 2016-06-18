@@ -1,0 +1,16 @@
+var nodes = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "popupContent": "<b>Opendrops</b><br>Inactive", 
+        "show_on_map": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.8222693800926, 11.9415933966651]
+      }
+    }  
+  ]
+};
